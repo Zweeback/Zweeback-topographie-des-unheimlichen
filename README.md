@@ -1,5 +1,12 @@
 # Topographie des Unheimlichen
 
+## Current visual
+
+![Current visual status](docs/status/current.png)
+
+> Status evidence only: this repository does not yet contain a verified runnable screen.
+
+
 Historically grounded dark-folklore third-person RPG in Godot 4.7.1, set around the Reinhardswald and adjacent North Hessian / Weserbergland cultural landscape.
 
 ## Product thesis

@@ -1,0 +1,8 @@
+{
+  "kind": "no-runnable-visual",
+  "project": "Topographie des Unheimlichen",
+  "stage": "PROTOTYPE",
+  "next_acceptance_gate": "Recover Quality Cycle 01 and migrate the verified Godot vertical slice",
+  "runtime_verified": false,
+  "accent": "#8b5cf6"
+}
