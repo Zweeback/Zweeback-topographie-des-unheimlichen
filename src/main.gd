@@ -15,6 +15,7 @@ var panel_title: Label
 var panel_body: RichTextLabel
 var choice_box: VBoxContainer
 var nearest_location_id := ""
+var interact_was_down := false
 
 func _ready() -> void:
 	GameState.load_state()
@@ -35,8 +36,10 @@ func _process(_delta: float) -> void:
 	else:
 		prompt_label.visible = false
 
-	if Input.is_action_just_pressed("interact") and nearest_location_id != "" and not panel.visible:
+	var interact_down := Input.is_physical_key_pressed(KEY_E)
+	if interact_down and not interact_was_down and nearest_location_id != "" and not panel.visible:
 		_open_location(nearest_location_id)
+	interact_was_down = interact_down
 
 func _load_content() -> void:
 	var parsed_locations = JSON.parse_string(FileAccess.get_file_as_string("res://data/locations.json"))
