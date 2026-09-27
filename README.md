@@ -36,3 +36,18 @@ Historical truth, plausible reconstruction, documented regional legend, later to
 ## Status
 
 This repository is the new canonical home. Existing prose, research dossiers, Quality Cycle 01 results and recoverable Godot source are migration inputs, not automatically trusted truth.
+
+
+## MVP implementation
+
+A playable no-external-assets vertical slice now lives on branch mvp/grimm-vertical-slice.
+
+- generated placeholder forest world
+- third-person WASD + mouse exploration
+- six canonical locations
+- provenance-aware lore cards
+- persistent seven-axis morality state
+- three-stage quest: Gottsbüren → Sababurg → Mühle
+- deterministic content validator and GitHub Actions check
+
+Open the project in Godot 4.x and run it. See docs/MVP.md for controls and scope.

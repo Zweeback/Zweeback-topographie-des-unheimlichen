@@ -1,0 +1,8 @@
+[
+  {"id":"gottsbueren","name":"Gottsbüren","position":[-16,0,-7],"evidence":"A","summary":"Wallfahrtsort und historischer Ausgangspunkt der Quest.","quest_step":0},
+  {"id":"sababurg","name":"Sababurg","position":[-5,0,-18],"evidence":"A","summary":"Burg- und Jagdschlossgeschichte, später touristisch als Dornröschenschloss gerahmt.","quest_step":1},
+  {"id":"muehle","name":"Mühle","position":[12,0,-16],"evidence":"E","summary":"Kreative Verdichtung von Arbeit, Isolation, Verwandlung und Namensmagie.","quest_step":2},
+  {"id":"trendelburg","name":"Trendelburg","position":[22,0,-2],"evidence":"D","summary":"Historischer Ort mit späterer populärer Rapunzel-Zuschreibung.","quest_step":-1},
+  {"id":"wolkenbruch","name":"Wolkenbruch","position":[13,0,18],"evidence":"B","summary":"Subrosionslandschaft als realer Ausgangspunkt unheimlicher Wahrnehmung.","quest_step":-1},
+  {"id":"gieselwerder","name":"Gieselwerder / Wasserbergauf","position":[-18,0,17],"evidence":"C","summary":"Regionale Wahrnehmungs- und Erzähltradition um scheinbar bergauf fließendes Wasser.","quest_step":-1}
+]
